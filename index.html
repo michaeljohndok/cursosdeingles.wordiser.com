@@ -42,16 +42,7 @@
 <!-- CUSTOM STYLESHEETS -->
 <link rel="stylesheet" href="css/styles.css">
 
-<!-- COLORS -->
-<!-- <link rel="stylesheet" href="css/colors/blue.css">  -->
-<!-- DEFAULT COLOR/ CURRENTLY USING -->
-<!-- <link rel="stylesheet" href="css/colors/red.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/green.css"> --> 
 <link rel="stylesheet" href="css/colors/purple.css"> 
-<!-- <link rel="stylesheet" href="css/colors/orange.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/blue-munsell.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/slate.css"> --> 
-<!-- <link rel="stylesheet" href="css/colors/yellow.css"> -->
 
 <!-- RESPONSIVE FIXES -->
 <link rel="stylesheet" href="css/responsive.css">
@@ -65,14 +56,19 @@
 <!-- JQUERY -->
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
-<script src="//www.wordiser.com/parse-latest.js"></script>
-<script src="./js/angular-1.0.1.min.js"></script>
-<script src="./js/controllers.js"></script>
+<script src="https://unpkg.com/parse/dist/parse.min.js"></script>
+
+
+<script src="./node_modules/angular/angular.js"></script>
+<script src="./node_modules/angular-translate/dist/angular-translate.js"></script>
+
+<!-- <script src="./js/angular-1.0.1.min.js"></script> -->
+<script src="./app.js"></script>
 
     
 </head>
 
-<body ng-app>
+<body ng-app="myApp">
 <!-- =========================
      PRE LOADER       
 ============================== -->
@@ -87,6 +83,8 @@
 
 <!-- COLOR OVER IMAGE -->
 <div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+
+	 <h1>{{ 'title' | translate }}</h1>
 
 	<!-- STICKY NAVIGATION -->
 	<div class="navbar navbar-inverse bs-docs-nav navbar-fixed-top sticky-navigation">
@@ -369,9 +367,6 @@
 			
 			<div class="shot">
 				<a href="images/students/8_new.png" data-lightbox-gallery="screenshots-gallery"><img src="images/students/8_new.png" alt="Screenshot"></a>
-			</div>
-			<div class="shot">
-				<a href="images/students/10_new.png" data-lightbox-gallery="screenshots-gallery"><img src="images/students/10.png" alt="Screenshot"></a>
 			</div>
 			
 			
