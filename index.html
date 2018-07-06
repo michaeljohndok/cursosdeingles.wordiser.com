@@ -155,12 +155,7 @@
 				
 			</div>
 			<!-- /END SINGLE FEEDBACK -->
-			<!-- SINGLE FEEDBACK -->
-			<div class="feedback">
-				<h1 class="intro">{{ 'USE_WORDISER_TO' | translate }} <b>{{ 'LEARN_NOT_FORGET' | translate }}</b></h1>
-				
-				
-			</div>
+			
 			<!-- /END SINGLE FEEDBACK -->
 			<!-- SINGLE FEEDBACK -->
 			<div class="feedback">
@@ -422,7 +417,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">{{ 'Personalised_Learning' | translate }}</h4>
 					<p>
-						<b>{{ 'Study' | translate }}</b> {{ 'aaaaaaaaaa' | translate }}
+						<b>{{ 'Study' | translate }}</b> {{ 'when_you_want' | translate }}
 					</p>
 				</div>
 				
@@ -742,7 +737,7 @@
 						</h4>
 						
 						<!-- EMAIL INPUT BOX -->
-						<input ng-model = "subscribe_email" name="email" id="subscriber-email" placeholder="Your email" class="form-control input-box">
+						<input ng-model = "subscribe_email" name="email" id="subscriber-email" placeholder="{{ 'Your_email' | translate }}" class="form-control input-box">
 						
 
 						<!-- SUBSCRIBE BUTTON -->
@@ -830,23 +825,23 @@
 					</h3>
 					
 					<div class="col-md-6">
-						<input class="form-control input-box" ng-model="name" type="text" name="name" placeholder="Your name">
+						<input class="form-control input-box" ng-model="name" type="text" name="name" placeholder="{{ 'Your_name' | translate }}">
 					</div>
 					
 					<div class="col-md-6">
-						<input class="form-control input-box" id="email" type="email" name="email" placeholder="Your email" ng-model="email">
+						<input class="form-control input-box" id="email" type="email" name="email" placeholder="{{ 'Your_email' | translate }}" ng-model="email">
 					</div>
 					
 					<div class="col-md-12">
-						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Subject" ng-model="subject">
-						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Message" ng-model="message"></textarea>
+						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="{{ 'Subject' | translate }}" ng-model="subject">
+						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="{{ 'Message' | translate }}" ng-model="message"></textarea>
 					</div>
 					
 					<!-- <p ng-if = "message_feedback">{{message_feedback}}</p> -->
 					
-					<button class="btn btn-primary standard-button2 " type="submit" ng-click = "sendMessage()" ng-disable = "message_feedback">{{ 'SEND MESSAGE' | translate }}</button>
+					<button class="btn btn-primary standard-button2 " type="submit" ng-click = "sendMessage()" ng-disable = "message_feedback">{{ 'SEND_MESSAGE' | translate }}</button>
 					
-					<a href = "https://docs.google.com/forms/d/e/1FAIpQLSfeFuFBXfXMtRKwonsMpzcrXLkyMrXpoZ8AEE6U1x8LBcMTcg/viewform"  class="btn btn-primary standard-button2 ">{{ 'GIVE FEEDBACK' | translate }}</a>
+					<a href = "https://docs.google.com/forms/d/e/1FAIpQLSfeFuFBXfXMtRKwonsMpzcrXLkyMrXpoZ8AEE6U1x8LBcMTcg/viewform"  class="btn btn-primary standard-button2 ">{{ 'GIVE_FEEDBACK' | translate }}</a>
 
 				</form>
 				<!-- /END FORM -->

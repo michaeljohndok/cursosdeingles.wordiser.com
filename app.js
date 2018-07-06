@@ -85,7 +85,7 @@ app.config(['$translateProvider', function ($translateProvider) {
         Home : 'Inicio',
         Learning_is_Hard1 : 'Problemas para aprender ingles',
         The_Solution : 'Como aprender ingles',
-        Features : '>Cursos de ingles gratis',
+        Features : 'Cursos de ingles gratis',
         What_Students_Say : 'Recomendaciones para cursos',
         Get_In_Touch : 'Ponte en contacto',
         Learning_English_Made_Simple : 'Learning English Made Simple',
@@ -93,8 +93,8 @@ app.config(['$translateProvider', function ($translateProvider) {
         BETTER : 'MEJOR',
         WHEN_YOU : 'USE WORDISER PARA',
         DON_T_FORGET : 'APRENDER - NO OLVIDAR!',
-        USE_WORDISER_TO : '',
-        LEARN_NOT_FORGET : '',
+        USE_WORDISER_TO : 'USE_WORDISER_TO',
+        LEARN_NOT_FORGET : 'LEARN_NOT_FORGET',
         YOUR_PERSONAL : 'CURSOS GRATIS',
         REVISER : 'DESDE EL INGLES BASICO HASTA EL ADVANZADO',
         JOIN_OR_LOGIN : 'ÚNASE O INICIE SESIÓN',
@@ -135,7 +135,7 @@ app.config(['$translateProvider', function ($translateProvider) {
         with_classes_and_your_teacher : 'con las clases y tu profesor',
         I_love_using_Wordiser : 'Me encanta usar Wordiser. Lo usamos en clase. Mi maestra me da tareas en eso. También reviso las notas de clase, para revisar lo que hicimos en clase.',
         Pamela : 'Pamela',
-        Wordiser_helps_me_remember : 'Wordiser helps me remember the words we do in class, and grammar too! Really useful.',
+        Wordiser_helps_me_remember : 'Wordiser me ayuda a recordar las palabras que necesito aprender. ¡Es genial para la gramática también! Realmente util.',
         Tetsuro : '',
         STUDY : 'ESTUDIAR',
         PLAY : 'JUGAR',
@@ -151,7 +151,12 @@ app.config(['$translateProvider', function ($translateProvider) {
         SEND_MESSAGE : 'ENVIAR MENSAJE',
         GIVE_FEEDBACK : 'DAR OPINION',
         WORDISER_FOR_ENGLISH_LANGUAGE_STUDENTS : 'COMO APRENDER INGLES GRATIS CON WORDISER',
-        
+        Your_name : 'Tu nombre',
+        Your_email : 'Tu correo electrónico',
+        Subject : 'Asunto',
+        Message : 'Mensaje',
+        SEND_MESSAGE : 'ENVIAR MENSAJE',
+        GIVE_FEEDBACK : 'DAR OPINION',
       });
 
   // add translation table
