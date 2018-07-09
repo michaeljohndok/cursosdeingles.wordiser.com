@@ -930,6 +930,20 @@ line-height: 53px;
 }
 
 
+/*fixd top nav*/
+.mk-fixed.navbar-toggle {
+    display: block;
+}
+.fixed.navbar-header{
+    width:100%;
+}
+#kane-navigation{
+    width:100%;
+}
+/*.fixed.navbar-collapse.collapse {
+    display: none!important;
+}*/
+
 @-webkit-keyframes glowing {
   0% { background-color: #rgb(236, 64, 122); -webkit-box-shadow: 0 0 3px #rgb(236, 64, 122); }
   50% { background-color: #FF69B4; -webkit-box-shadow: 0 0 40px #FF69B4; }
