@@ -91,7 +91,7 @@ app.config(['$translateProvider', function ($translateProvider) {
         Learning_English_Made_Simple : 'Learning English Made Simple',
         YOU_LEARN : 'PARA APRENDER INGLES',
         BETTER : 'MEJOR',
-        WHEN_YOU : 'USE WORDISER PARA',
+        WHEN_YOU : 'ÚSE WORDISER PARA',
         DON_T_FORGET : 'APRENDER - NO OLVIDAR!',
         USE_WORDISER_TO : 'USE_WORDISER_TO',
         LEARN_NOT_FORGET : 'LEARN_NOT_FORGET',
